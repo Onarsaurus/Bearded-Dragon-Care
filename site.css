@@ -1,0 +1,129 @@
+/* Omar Sarazua */
+
+#wrapper { width: 960px; 
+		   padding: 5px;
+		   margin-left: auto;
+		   margin-right: auto;
+		   background-color: #CA9163;
+		   box-shadow: 3px 3px 1px #341B0A;
+		   border: 2px solid #341B0A; }
+		   
+header { background-color: #A36E46; 
+		 padding: 2px;
+		 font-size: 18px; }
+
+h1 { text-align: center;
+	 font-family: Helvetica, Tahoma, sans-serif; }
+	 
+h2 { text-decoration: underline; }
+
+body { background-color: #EFD4B9;
+	   color: #341B0A; 
+	   font-family: Arial, Helvetica, sans-serif; }
+		 
+nav { font-size: 20px;
+	  float: left; 
+	  width: 140px;
+	  padding: 2px;
+	  text-align: center; }
+
+nav ul { list-style: none;
+		 padding: 0; }
+
+nav a { text-decoration: none; }
+		 
+nav a:link { color: #341B0A; }
+nav a:visited { color: #744826; }
+nav a:hover { color: #A36E46; }
+
+main { margin-left: 140px; 
+	   padding: 5px 10px 5px 10px; 
+	   background-color: #E3AE81; }
+
+footer { margin-left: 140px;
+		 padding: 5px;
+	     background-color: #A36E46; }
+
+footer p { font-size: small;
+		   color: #EFD4B9;
+		   text-align: center; }
+
+footer a { font-style: italic; }
+		   
+figure { padding: 0 0 5px 5px; }
+
+figcaption { font-size: small; }
+		   
+.float { float: right;
+		 margin: 0 0 5px 5px; }
+
+.clear { clear: right; }
+
+caption { font-weight: bold;
+		  Text-decoration: underline; 
+		  margin-bottom: 2px; }
+
+table { border: 1px solid #341B0A; 
+		border-collapse: collapse; 
+		width: 450px; 
+		margin: auto; }
+		
+th, td { border: 1px solid #341B0A; 
+		 text-align: center;
+		 padding: 5px; }
+		 
+thead { background-color: #A36E46; 
+		color: #ffffff; }
+		 
+tbody tr:nth-of-type(odd) { background-color: #EFD4B9; }
+
+form { background-color: #EFD4B9; 
+	   padding: 10px; }
+
+fieldset { border: 1px solid #341B0A; }
+
+@media (max-width: 1024px) {
+	body { margin: 0; }
+	#wrapper { width: 100%; 
+			   margin: 0; }
+	nav { font-size: 18px;
+	      float: none; 
+		  width: 300px;
+		  padding: 2px; 
+		  margin-left: auto; 
+		  margin-right: auto; }
+	nav li { display: inline; }
+	main { margin-left: 0; }
+	footer { margin-left: 0; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+	.float { float: none; }
+	.clear { clear: none; }
+	table { font-size: 90%; }
+	form { font-size: 90%; }
+}
+
+@media (max-width: 768px) {
+	body { margin: 0; }
+	#wrapper { width: 100%; 
+			   margin: 0; 
+			   padding: 0; 
+			   border: none; }
+	nav { font-size: 16px;
+	      float: none; 
+		  width: 300px;
+		  padding: 2px; 
+		  margin-left: auto; 
+		  margin-right: auto; 
+		  border-bottom: solid 2px #341B0A; }
+	nav li { display: inline; }
+	main { margin-left: 0; }
+	footer { margin-left: 0; }
+	h1, h2 { font-size: 100%; }
+	p { font-size: 80%}
+	figure { display: none; }
+	.float { float: none; }
+	.clear { clear: none; }
+	table { font-size: 80%; }
+	form { font-size: 80%; }
+}
